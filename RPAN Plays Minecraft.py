@@ -37,21 +37,21 @@ for comment in submissions.stream.comments():
         if comment == "holdcrouch": pyautogui.keyDown('shift');
         if comment == "crouchcancel": pyautogui.press(['shift', 'shift', 'shift']);
         if comment == "attackmob": pyautogui.mouseDown(duration=10.0);
-        if comment == "attackcancel": pyautogui.click
+        if comment == "attackcancel": pyautogui.click(button='primary');
         if comment == "minevery short": pyautogui.mouseDown(duration=1.0);
         if comment == "mineshort": pyautogui.mouseDown(duration=3.0);
         if comment == "minenormal": pyautogui.mouseDown(duration=5.0);
         if comment == "minelong": pyautogui.mouseDown(duration=7.0);
         if comment == "mineverylong": pyautogui.mouseDown(duration=9.0);
-        if comment == "minecancel": pyautogui.click(button='primary')
+        if comment == "minecancel": pyautogui.click(button='primary');
         if comment == "lookleft": pyautogui.keyDown('num4'); time.sleep(1); pyautogui.keyUp('num4');
         if comment == "lookright": pyautogui.keyDown('num6'); time.sleep(1); pyautogui.keyUp('num6');
         if comment == "lookup": pyautogui.keyDown('num8'); time.sleep(1); pyautogui.keyUp('num8');
         if comment == "lookdown": pyautogui.keyDown('num2'); time.sleep(1); pyautogui.keyUp('num2');
         if comment == "resetcamera": pyautogui.keyDown('num5'); pyautogui.keyUp('num5');
         if comment == "jumpup": pyautogui.keyDown('space'); pyautogui.keyUp('space');
-        if comment == "leftclick": pyautogui.click(button='primary')
-        if comment == "rightclick": pyautogui.click(button='right')
+        if comment == "leftclick": pyautogui.click(button='primary');
+        if comment == "rightclick": pyautogui.click(button='right');
         if comment == "eatfood": pyautogui.mouseDown(button='right', duration=5.0);
         if comment == "menuup": pyautogui.press('num8');
         if comment == "menudown": pyautogui.press('num2');
