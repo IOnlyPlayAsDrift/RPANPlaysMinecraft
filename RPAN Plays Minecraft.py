@@ -34,8 +34,6 @@ for comment in submissions.stream.comments():
         if comment == "slot7": pyautogui.press('7');
         if comment == "slot8": pyautogui.press('8');
         if comment == "slot9": pyautogui.press('9');
-        if comment == "holdcrouch": pyautogui.keyDown('shift');
-        if comment == "crouchcancel": pyautogui.press(['shift', 'shift', 'shift']);
         if comment == "attackmob": pyautogui.mouseDown(duration=10.0);
         if comment == "attackcancel": pyautogui.click(button='primary');
         if comment == "minevery short": pyautogui.mouseDown(duration=1.0);
