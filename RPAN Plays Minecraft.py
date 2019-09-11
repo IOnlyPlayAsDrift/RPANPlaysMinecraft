@@ -36,7 +36,7 @@ for comment in submissions.stream.comments():
         if comment == "slot9": pyautogui.press('9');
         if comment == "attackmob": pyautogui.mouseDown(duration=10.0);
         if comment == "attackcancel": pyautogui.click(button='primary');
-        if comment == "minevery short": pyautogui.mouseDown(duration=1.0);
+        if comment == "mineveryshort": pyautogui.mouseDown(duration=1.0);
         if comment == "mineshort": pyautogui.mouseDown(duration=3.0);
         if comment == "minenormal": pyautogui.mouseDown(duration=5.0);
         if comment == "minelong": pyautogui.mouseDown(duration=7.0);
