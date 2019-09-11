@@ -1,12 +1,10 @@
 import praw
 import pyautogui
 import time
-from pynput.mouse import Button, Controller
-mouse = Controller()
 
-reddit = praw.Reddit(client_id='eJoHaIuc9aGuAA',
-                     client_secret='AZpfE4uK7OTft-QkgfmatPbUmso',
-                     user_agent='epic gamers ahsdisa')
+reddit = praw.Reddit(client_id='placeholder',
+                     client_secret='placeholder',
+                     user_agent='placeholder')
 
 submissions = reddit.subreddit('pan_media')
 
