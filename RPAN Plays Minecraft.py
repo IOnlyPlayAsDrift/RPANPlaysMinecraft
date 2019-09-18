@@ -42,15 +42,11 @@ for comment in subreddit.stream.comments():
             if comment == "7": pyautogui.press('7');
             if comment == "8": pyautogui.press('8');
             if comment == "9": pyautogui.press('9');
-            if comment == "attack": pyautogui.click(clicks=10, interval=0.25);
+            if comment == "attack": pyautogui.click(clicks=10);
             if comment == "attackstop": pyautogui.click(button='primary');
-            if comment == "atk": pyautogui.click(clicks=10, interval=0.25);
+            if comment == "atk": pyautogui.click(clicks=10);
             if comment == "atkstop": pyautogui.click(button='primary');
-            if comment == "minevs": pyautogui.mouseDown(duration=1.0);
-            if comment == "mines": pyautogui.mouseDown(duration=3.0);
             if comment == "mine": pyautogui.mouseDown(duration=5.0);
-            if comment == "minel": pyautogui.mouseDown(duration=7.0);
-            if comment == "minevl": pyautogui.mouseDown(duration=9.0);
             if comment == "minestop": pyautogui.click(button='primary');
             if comment == "cleft": pyautogui.keyDown('num4'); time.sleep(0.5); pyautogui.keyUp('num4');
             if comment == "cright": pyautogui.keyDown('num6'); time.sleep(0.5); pyautogui.keyUp('num6');
